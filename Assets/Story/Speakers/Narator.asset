@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: Narator
   m_EditorClassIdentifier: 
   speakerName: Narator
-  textColor: {r: 1, g: 1, b: 1, a: 0}
-  sprites: []
-  prefab: {fileID: 0}
+  textColor: {r: 0, g: 0, b: 0, a: 0}
+  backgroundColor: {r: 0, g: 0, b: 0, a: 1}

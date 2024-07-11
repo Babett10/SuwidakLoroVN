@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: 
   sentences:
-  - text: Kamu dak jelek. Di mata Ibu, kamu adalah gadis paling cantik. Rambutmu
-      yang hanya 62 helai seperti bulu burung merak yang indah. Alismu yang dua helai
-      seperti bulan sabit yang melingkari mata
-    speaker: {fileID: 11400000, guid: 87ad3b5e1131c084197572628734a466, type: 2}
-  background: {fileID: 21300000, guid: 7c61854a10f00214fb87c51a5f07e319, type: 3}
+  - text: 4
+    speaker: {fileID: 11400000, guid: dfb7604b60f14bb4dbd2c185f9688c9b, type: 2}
+  background: {fileID: 21300000, guid: 7eadf63264a7e464f942130ecffb3c1a, type: 3}
   nextScene: {fileID: 0}

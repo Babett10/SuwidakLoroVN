@@ -13,19 +13,9 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   sentences:
-  - text: 'Dahulu kala, di sebuah desa tinggallah seorang Janda Tua bersama putri
-      kesayangannya yang bernama Sewidak Loro, sewidak loro berarti enam puluh dua. '
-    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
-  - text: 'Dinamakan Sewidak Loro karena anak perempuan itu berambut jarang. '
-    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
-  - text: Kalau dihitung hanya ada 62 helai. Tidak bertambah dan tak berkurang. Alisnya
-      hanya selembar di kiri dan selembar di kanan.
-    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
-  - text: Penduduk desa selalu mencemooh gadis itu dengan sebutan gadis terjelek
-      di dunia.
-    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
-  - text: Karena sering diejek, Sewidak Loro tidak mau keluar rumah. Ia hanya mengurung
-      diri di kamar.
-    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
-  background: {fileID: 21300000, guid: e0582bdf3988e3d47bb95c62dc7e4aa7, type: 3}
-  nextScene: {fileID: 11400000, guid: 5a227718f9adde8459ae4099f6eafac6, type: 2}
+  - text: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    speaker: {fileID: 11400000, guid: cb5bfc4d711d9894c9b0ab38c77f577e, type: 2}
+  - text: 11
+    speaker: {fileID: 11400000, guid: 464ea347978097045b4c2c1da21476cd, type: 2}
+  background: {fileID: 21300000, guid: 7eadf63264a7e464f942130ecffb3c1a, type: 3}
+  nextScene: {fileID: 11400000, guid: f11643c8d6ef05d4fbaa9b9af8fd96b0, type: 2}
