@@ -12,6 +12,11 @@ public class GameController : MonoBehaviour
     public ChooseController chooseController;
     public QuizController quizController; // Tambahkan ini
     public AudioController audioController;
+    public PuzzleController puzzleController;
+    public PopUpController popupController;
+    public PesanController pesanController;
+
+    private bool isPaused = false; 
 
     public DataHolder data;
 
@@ -24,7 +29,7 @@ public class GameController : MonoBehaviour
 
     private enum State
     {
-        IDLE, ANIMATE, CHOOSE, QUIZ // Tambahkan QUIZ state
+        IDLE, ANIMATE, CHOOSE, QUIZ, PUZZLE, POPUP, PESAN // Tambahkan QUIZ state
     }
 
     void Start()
@@ -163,6 +168,21 @@ public class GameController : MonoBehaviour
             state = State.QUIZ;
             quizController.SetupQuiz(scene as QuizScene);
         }
+        else if (scene is PuzzleScene) // Tambahkan ini
+        {
+            state = State.PUZZLE;
+            puzzleController.SetupPuzzle(scene as PuzzleScene);
+        }
+        else if (scene is PopUpScene) // Tambahkan ini
+        {
+            state = State.POPUP;
+            popupController.SetupPopUp(scene as PopUpScene);
+        }
+        else if (scene is PesanScene) // Tambahkan ini
+        {
+            state = State.PESAN;
+            pesanController.SetupPesan(scene as PesanScene);
+        }
     }
 
     private void PlayAudio(StoryScene.Sentence sentence)
@@ -178,5 +198,44 @@ public class GameController : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene("Menu");
+        isPaused = false;
+        Time.timeScale = 1f;
+    }
+    public void NextScene()
+{
+    int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    int nextSceneIndex = currentSceneIndex + 1;
+
+    // Pastikan nextSceneIndex tidak melebihi jumlah total scene
+    if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+    {
+        // Simpan status chapter berikutnya di PlayerPrefs melalui GameManager
+        GameManager.Instance.SetChapterCompletion(nextSceneIndex, true);
+        Debug.Log("Unlocked Chapter " + nextSceneIndex);
+
+        // Load the next scene
+        SceneManager.LoadScene(nextSceneIndex);
+    }
+    else
+    {
+        Debug.Log("No more scenes to load!");
+    }
+}
+
+
+
+
+    public void Pause()
+    {
+        isPaused = true;
+        Time.timeScale = 0f;
+        Debug.Log("Game Paused");
+    }
+
+    public void Resume()
+    {
+        isPaused = false;
+        Time.timeScale = 1f;
+        Debug.Log("Game Resumed");
     }
 }

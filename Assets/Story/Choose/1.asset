@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   labels:
-  - text: 2
-    nextScene: {fileID: 11400000, guid: dad64934030d2814f806e6ed5f745232, type: 2}
-  - text: 3
-    nextScene: {fileID: 11400000, guid: ace2dcda52084e044a02726b2eb3162c, type: 2}
-  - text: 4
-    nextScene: {fileID: 11400000, guid: a4d268d70a4fd1f4fb7f38cb467cf40f, type: 2}
+  - text: Kamu tidak jelek
+    nextScene: {fileID: 11400000, guid: 9f158a41b39a2d94fab3d64f7e98c5f5, type: 2}
+  - text: Jangan Dengarkan mereka
+    nextScene: {fileID: 11400000, guid: 9f158a41b39a2d94fab3d64f7e98c5f5, type: 2}
+  - text: Abaikan saja mereka
+    nextScene: {fileID: 11400000, guid: 9f158a41b39a2d94fab3d64f7e98c5f5, type: 2}

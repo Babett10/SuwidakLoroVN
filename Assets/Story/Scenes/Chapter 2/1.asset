@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   sentences:
-  - text: Ibu menatap Sewidak Loro dengan mata penuh kasih dan senyum lembut yang
+  - text: Ibu menatap Suwidak Loro dengan mata penuh kasih dan senyum lembut yang
       menenangkan. Sosoknya memancarkan ketenangan, seakan-akan segala masalah bisa
       diatasi dengan cinta dan yang ia miliki.
     audio: {fileID: 0}
@@ -22,19 +22,19 @@ MonoBehaviour:
     music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
     sound: {fileID: 0}
   - text: 'Ia selalu tahu bagaimana membuat putrinya merasa berharga, dengan kata-kata
-      bijak . '
+      bijak. '
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Setiap hari, Sewidak Loro selalu membantu Ibunya mencari daun jati dan
+  - text: Setiap hari, Suwidak Loro selalu membantu Ibunya mencari daun jati dan
       ranting kayu untuk dijual ke pasar. Setiap hari pula Sang Ibu menyiapkan nasi
-      hangat dan sambal tempe untuk Sewidak Loro.
+      hangat dan sambal tempe untuk Suwidak Loro.
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: dfa5c4e05f8702940b9b5d12c86e5125, type: 3}
+  background: {fileID: 21300000, guid: 9b860beccf5dc4247819bee77c203fa0, type: 3}
   nextScene: {fileID: 11400000, guid: fe6daea3b2b89fe46ba2ae5302797314, type: 2}

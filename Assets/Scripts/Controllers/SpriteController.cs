@@ -6,7 +6,7 @@ public class SpriteController : MonoBehaviour
     private SpriteSwitcher switcher;
     private Animator animator;
     private RectTransform rect;
-    private CanvasGroup canvasGroup;
+    private CanvasGroup canvasGroup;    
 
     private void Awake()
     {
@@ -21,7 +21,7 @@ public class SpriteController : MonoBehaviour
         switcher.SetImage(sprite);
     }
 
-    public void Show(Vector2 coords, bool isAnimated = true)
+    public void Show(Vector2 coords, Vector3 rotation, bool isAnimated = true)
     {
         if (isAnimated)
         {
@@ -33,6 +33,7 @@ public class SpriteController : MonoBehaviour
             animator.enabled = false;
             canvasGroup.alpha = 1;
         }
+        rect.eulerAngles = rotation;
         rect.localPosition = coords;
     }
 
@@ -87,4 +88,7 @@ public class SpriteController : MonoBehaviour
             }
         }
     }
+
+
+
 }

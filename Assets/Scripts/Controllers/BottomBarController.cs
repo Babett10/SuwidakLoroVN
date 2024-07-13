@@ -180,11 +180,13 @@ public class BottomBarController : MonoBehaviour
         {
             controller = sprites[action.speaker];
         }
+
+
         switch (action.actionType)
         {
             case StoryScene.Sentence.Action.Type.APPEAR:
                 controller.Setup(action.speaker.sprites[action.spriteIndex]);
-                controller.Show(action.coords, isAnimated);
+                controller.Show(action.coords, action.rotation, isAnimated);
                 return;
             case StoryScene.Sentence.Action.Type.MOVE:
                 controller.Move(action.coords, action.moveSpeed, isAnimated);
@@ -194,5 +196,5 @@ public class BottomBarController : MonoBehaviour
                 break;
         }
         controller.SwitchSprite(action.speaker.sprites[action.spriteIndex], isAnimated);
-    }
+}
 }

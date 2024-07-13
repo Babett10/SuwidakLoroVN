@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Soal 1
   m_EditorClassIdentifier: 
   questions:
-  - question: Siapa Sewidak Loro?
+  - question: Siapa Suwidak Loro?
     options:
     - text: Anak perempuan berwajah cantik
       isCorrect: 0
-    - text: Anak perempuan berwajah jelek
+    - text: Anak perempuan berwajah Jelek
       isCorrect: 1
-    - text: Anak laki-laki berwajah cantik
+    - text: Anak Laki - laki berwajah cantik
       isCorrect: 0
-  - question: Sewidak Loro merupakan cerita rakyat yang berasal dari daerah?
+  - question: Suwidak Loro merupakan cerita rakyat yang berasal dari daerah?
     options:
     - text: Jawa Timur
       isCorrect: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
       isCorrect: 1
     - text: Jawa Barat
       isCorrect: 0
-  - question: Sewidak Loro seringkali diolok-olok oleh temannya karena ia hanya memiliki?
+  - question: Suwidak Loro seringkali diolok-olok oleh temannya karena ia hanya memiliki?
     options:
     - text: 62 Helai Rambut
       isCorrect: 1
@@ -37,7 +37,7 @@ MonoBehaviour:
       isCorrect: 0
     - text: 68 Helai Rambut
       isCorrect: 0
-  - question: Bagaimana watak dari karakter Sewidak Loro?
+  - question: Bagaimana watak dari karakter Suwidak Loro?
     options:
     - text: Baik hati dan sayang ibunya
       isCorrect: 1
@@ -53,4 +53,4 @@ MonoBehaviour:
       isCorrect: 0
     - text: Sombong dan iri hati
       isCorrect: 0
-  nextSceneAfterQuiz: {fileID: 11400000, guid: 8cfed2418816d7642b4c241d940b94f8, type: 2}
+  nextSceneAfterQuiz: {fileID: 0}

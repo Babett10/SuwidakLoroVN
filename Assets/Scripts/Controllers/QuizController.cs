@@ -10,6 +10,8 @@ public class QuizController : MonoBehaviour
     public List<Button> optionButtons;
     private QuizScene currentScene;
     private int currentQuestionIndex = 0;
+    private int totalPoints = 0;
+    public TextMeshProUGUI resultText;
     public GameObject quizPanel;
 
     public void SetupQuiz(QuizScene scene)
@@ -53,6 +55,7 @@ public class QuizController : MonoBehaviour
             GameController gameController = FindObjectOfType<GameController>();
             gameController.PlayScene(currentScene.nextSceneAfterQuiz);
             quizPanel.SetActive(false);
+            // resultText.text = "Total poin Kamu: " + totalPoints;
         }
     }
 
@@ -61,6 +64,7 @@ public class QuizController : MonoBehaviour
         QuizScene.QuizQuestion question = currentScene.questions[currentQuestionIndex];
         if (question.options[optionIndex].isCorrect)
         {
+            totalPoints += 1;
             Debug.Log("Correct Answer!");
         }
         else

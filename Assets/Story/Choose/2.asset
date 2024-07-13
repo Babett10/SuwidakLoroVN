@@ -16,4 +16,4 @@ MonoBehaviour:
   - text: Pergi menjual kayu
     nextScene: {fileID: 11400000, guid: bec3a9cbb33a4c34fa9a66b087df60d4, type: 2}
   - text: Pergi bermain
-    nextScene: {fileID: 11400000, guid: bec3a9cbb33a4c34fa9a66b087df60d4, type: 2}
+    nextScene: {fileID: 11400000, guid: 505c3c5bdd8fb0d418f9a6905b8c1604, type: 2}

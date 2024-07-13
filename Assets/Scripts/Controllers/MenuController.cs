@@ -6,13 +6,11 @@ using UnityEngine.UI;
 
 public class MenuController : MonoBehaviour
 {
-    public string loaderScene;
 
     public TextMeshProUGUI musicValue;
     public AudioMixer musicMixer;
     public TextMeshProUGUI soundsValue;
     public AudioMixer soundsMixer;
-    public Button loadButton;
 
     private Animator animator;
     private int _window = 0;
@@ -20,28 +18,33 @@ public class MenuController : MonoBehaviour
     public void Start()
     {
         animator = GetComponent<Animator>();
-        loadButton.interactable = SaveManager.IsGameSaved();
     }
 
-    public void Update()
+    public void CloseSetting()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && _window == 1)
-        {
-            animator.SetTrigger("HideOptions");
+         animator.SetTrigger("HideOptions");
             _window = 0;
-        }
     }
 
-    public void NewGame()
+    public void Intro()
     {
-        SaveManager.ClearSavedGame();
-        Load();
+        SceneManager.LoadScene("Intro");
     }
 
-    public void Load()
+    public void Chapter1()
     {
-        SceneManager.LoadScene(loaderScene, LoadSceneMode.Additive);
+        SceneManager.LoadScene("Game");
     }
+
+    public void Chapter2()
+    {
+        SceneManager.LoadScene("Game 2");
+    }
+    public void Chapter3()
+    {
+        SceneManager.LoadScene("Game 2");
+    }
+
 
     public void ShowOptions()
      {

@@ -22,16 +22,22 @@ MonoBehaviour:
       spriteIndex: 0
       actionType: 1
       coords: {x: 450, y: -50}
+      rotation: {x: 0, y: 0, z: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: 'Anakku, ternyata sudah pulang kau, Nak. Istirahatlah dulu setelah itu
-      kita makan           bersama. Ibu sudah menyiapkan nasi hangat dan sambal tempe
-      untukmu '
+      kita makan bersama. Ibu sudah menyiapkan nasi hangat dan sambal tempe untukmu '
     audio: {fileID: 0}
     speaker: {fileID: 11400000, guid: 06ca542ebb2294e4ebeedf558305b585, type: 2}
-    actions: []
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -500, y: -50}
+      rotation: {x: 0, y: 180, z: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
     sound: {fileID: 0}
   - text: ...
     audio: {fileID: 0}
@@ -41,8 +47,15 @@ MonoBehaviour:
       spriteIndex: 0
       actionType: 3
       coords: {x: 450, y: -50}
+      rotation: {x: 0, y: 0, z: 0}
       moveSpeed: 0
-    music: {fileID: 8300000, guid: c90bbda81fc61b64096dab173e188461, type: 3}
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -500, y: -50}
+      rotation: {x: 0, y: 180, z: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: dfa5c4e05f8702940b9b5d12c86e5125, type: 3}
+  background: {fileID: 21300000, guid: 9b860beccf5dc4247819bee77c203fa0, type: 3}
   nextScene: {fileID: 11400000, guid: e0265bee781faaf40b097b8bd1d4558c, type: 2}

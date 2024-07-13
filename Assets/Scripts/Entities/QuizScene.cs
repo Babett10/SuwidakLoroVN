@@ -7,7 +7,7 @@ using UnityEngine;
 public class QuizScene : GameScene
 {
     public List<QuizQuestion> questions;
-    public StoryScene nextSceneAfterQuiz;
+    public GameScene nextSceneAfterQuiz;
 
     [System.Serializable]
     public struct QuizQuestion

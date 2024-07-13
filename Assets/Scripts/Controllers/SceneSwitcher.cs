@@ -37,4 +37,5 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.UnloadSceneAsync(loaderScene);
     }
+    
 }
