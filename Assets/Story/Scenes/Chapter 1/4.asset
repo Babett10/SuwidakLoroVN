@@ -20,7 +20,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 06ca542ebb2294e4ebeedf558305b585, type: 2}
       spriteIndex: 0
       actionType: 1
-      coords: {x: 450, y: -50}
+      coords: {x: 600, y: -50}
       rotation: {x: 0, y: 0, z: 0}
       moveSpeed: 0
     music: {fileID: 0}

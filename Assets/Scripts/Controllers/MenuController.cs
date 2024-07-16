@@ -42,7 +42,7 @@ public class MenuController : MonoBehaviour
     }
     public void Chapter3()
     {
-        SceneManager.LoadScene("Game 2");
+        SceneManager.LoadScene("Game 3");
     }
 
 

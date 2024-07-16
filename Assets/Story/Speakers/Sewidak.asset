@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sewidak
   m_EditorClassIdentifier: 
   speakerName: Suwidak Loro
-  textColor: {r: 1, g: 1, b: 1, a: 1}
+  textColor: {r: 0.23921569, g: 0.15294118, b: 0.0627451, a: 1}
   sprites:
   - {fileID: 21300000, guid: 6cc7c1042b591704baa074348c2757ac, type: 3}
   - {fileID: 21300000, guid: 9607d86d9d98446488f094ce9f728b5b, type: 3}

@@ -7,6 +7,7 @@ public class PesanScene : GameScene
 {
     public List<Sentence> sentences;
     public GameScene nextScene;
+    public GameScene previousScene;
 
     [System.Serializable]
     public struct Sentence

@@ -19,15 +19,6 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
     actions: []
     music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Mbok menangis haru, ia tidak menyangka putri kecilnya kini menjadi gadis
-      yang sangat cantik. Cantik hati dan cantik paras, ia berterimakasih kepada
-      Tuhan karena semua doa nya selama ini terkabul juga. Sewidak Loro dan mboknya
-      kini hidup bahagia di istana.
-    audio: {fileID: 0}
-    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 02408673fd97ae944bd5b68b011e7c40, type: 3}
-  nextScene: {fileID: 11400000, guid: 2f84dda9e8387c346bfe3782e9f705c8, type: 2}
+    sound: {fileID: 8300000, guid: 94813117b96efc54db61f724e08f28b6, type: 3}
+  background: {fileID: 21300000, guid: 6c7d2563b0c8df1498470b98bf150230, type: 3}
+  nextScene: {fileID: 11400000, guid: 607a2e14d5564274ca7e9942b9e7a684, type: 2}

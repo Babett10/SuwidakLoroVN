@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pangeran
   m_EditorClassIdentifier: 
   speakerName: Pangeran
-  textColor: {r: 1, g: 1, b: 1, a: 0}
+  textColor: {r: 0.23921569, g: 0.15294118, b: 0.0627451, a: 0}
   sprites:
   - {fileID: 21300000, guid: f5c5994dd48ce9a43924e4d717ff7ea0, type: 3}
   prefab: {fileID: -400084230080365608, guid: 7dd97e932612e024d9f87ab0e54d7579, type: 3}

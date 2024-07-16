@@ -21,7 +21,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: cceb82a578ac9a24684a60e6060642e5, type: 2}
       spriteIndex: 0
       actionType: 1
-      coords: {x: 450, y: -50}
+      coords: {x: 600, y: -50}
       rotation: {x: 0, y: 0, z: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -35,7 +35,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: cceb82a578ac9a24684a60e6060642e5, type: 2}
       spriteIndex: 0
       actionType: 3
-      coords: {x: 450, y: -50}
+      coords: {x: 600, y: -50}
       rotation: {x: 0, y: 0, z: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -48,7 +48,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
       spriteIndex: 0
       actionType: 1
-      coords: {x: 450, y: -50}
+      coords: {x: 600, y: -50}
       rotation: {x: 0, y: 0, z: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -60,7 +60,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: cceb82a578ac9a24684a60e6060642e5, type: 2}
       spriteIndex: 0
       actionType: 1
-      coords: {x: -550, y: -50}
+      coords: {x: -700, y: -50}
       rotation: {x: 0, y: 180, z: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -72,7 +72,7 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: cceb82a578ac9a24684a60e6060642e5, type: 2}
       spriteIndex: 0
       actionType: 3
-      coords: {x: -550, y: 50}
+      coords: {x: -700, y: 50}
       rotation: {x: 0, y: 0, z: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -84,13 +84,13 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
       spriteIndex: 0
       actionType: 3
-      coords: {x: 450, y: -50}
+      coords: {x: 600, y: -50}
       rotation: {x: 0, y: 0, z: 0}
       moveSpeed: 0
     - speaker: {fileID: 11400000, guid: cceb82a578ac9a24684a60e6060642e5, type: 2}
       spriteIndex: 0
       actionType: 1
-      coords: {x: -550, y: -50}
+      coords: {x: -700, y: -50}
       rotation: {x: 0, y: 180, z: 0}
       moveSpeed: 0
     music: {fileID: 0}

@@ -7,7 +7,6 @@ public class BottomBarController : MonoBehaviour
 {
     public TextMeshProUGUI barText;
     public TextMeshProUGUI personNameText;
-    public GameObject NamePanel;
     public AudioSource voicePlayer;
 
     private int sentenceIndex = -1;

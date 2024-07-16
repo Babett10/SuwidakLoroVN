@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Pengawal
   m_EditorClassIdentifier: 
   speakerName: Pengawal
-  textColor: {r: 1, g: 1, b: 1, a: 0}
+  textColor: {r: 0.23921569, g: 0.15294118, b: 0.0627451, a: 0}
   sprites: []
   prefab: {fileID: 0}

@@ -10,6 +10,8 @@ public class PuzzleController : MonoBehaviour
     private PuzzleScene currentScene;
     public GameObject PuzzlePanel;
     private int currentPuzzleIndex = 0;
+    public TextMeshProUGUI resultText;
+    private int totalPoints = 0;
 
     public void SetupPuzzle(PuzzleScene scene)
     {
@@ -53,6 +55,7 @@ public class PuzzleController : MonoBehaviour
             GameController gameController = FindObjectOfType<GameController>();
             gameController.PlayScene(currentScene.nextSceneAfterPuzzle);
             PuzzlePanel.SetActive(false);
+            resultText.text = "" + totalPoints;
         }
     }
 
@@ -101,6 +104,7 @@ public class PuzzleController : MonoBehaviour
 
         if (allPiecesCorrect)
         {
+            totalPoints += 5;
             Debug.Log("Puzzle Solved!");
             OnPuzzleSolved();
         }

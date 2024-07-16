@@ -55,7 +55,7 @@ public class QuizController : MonoBehaviour
             GameController gameController = FindObjectOfType<GameController>();
             gameController.PlayScene(currentScene.nextSceneAfterQuiz);
             quizPanel.SetActive(false);
-            // resultText.text = "Total poin Kamu: " + totalPoints;
+            resultText.text = "" + totalPoints;
         }
     }
 

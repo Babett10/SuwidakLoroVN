@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI; // Pastikan untuk menambahkan ini
+using UnityEngine.UI; 
 
 public class GameController : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     public BottomBarController bottomBar;
     public SpriteSwitcher backgroundController;
     public ChooseController chooseController;
-    public QuizController quizController; // Tambahkan ini
+    public QuizController quizController; 
     public AudioController audioController;
     public PuzzleController puzzleController;
     public PopUpController popupController;
@@ -21,7 +21,7 @@ public class GameController : MonoBehaviour
     public DataHolder data;
 
     public string menuScene;
-    public GameObject endingPanel; // Tambahkan ini
+    public GameObject endingPanel; 
 
     private State state = State.IDLE;
 
@@ -29,7 +29,7 @@ public class GameController : MonoBehaviour
 
     private enum State
     {
-        IDLE, ANIMATE, CHOOSE, QUIZ, PUZZLE, POPUP, PESAN // Tambahkan QUIZ state
+        IDLE, ANIMATE, CHOOSE, QUIZ, PUZZLE, POPUP, PESAN 
     }
 
     void Start()
@@ -163,22 +163,22 @@ public class GameController : MonoBehaviour
             state = State.CHOOSE;
             chooseController.SetupChoose(scene as ChooseScene);
         }
-        else if (scene is QuizScene) // Tambahkan ini
+        else if (scene is QuizScene) 
         {
             state = State.QUIZ;
             quizController.SetupQuiz(scene as QuizScene);
         }
-        else if (scene is PuzzleScene) // Tambahkan ini
+        else if (scene is PuzzleScene) 
         {
             state = State.PUZZLE;
             puzzleController.SetupPuzzle(scene as PuzzleScene);
         }
-        else if (scene is PopUpScene) // Tambahkan ini
+        else if (scene is PopUpScene) 
         {
             state = State.POPUP;
             popupController.SetupPopUp(scene as PopUpScene);
         }
-        else if (scene is PesanScene) // Tambahkan ini
+        else if (scene is PesanScene) 
         {
             state = State.PESAN;
             pesanController.SetupPesan(scene as PesanScene);
@@ -221,8 +221,6 @@ public class GameController : MonoBehaviour
         Debug.Log("No more scenes to load!");
     }
 }
-
-
 
 
     public void Pause()

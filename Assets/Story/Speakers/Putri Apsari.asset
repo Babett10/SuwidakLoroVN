@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Putri Apsari
   m_EditorClassIdentifier: 
   speakerName: Putri Apsari
-  textColor: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 0}
+  textColor: {r: 0.23921569, g: 0.15294118, b: 0.0627451, a: 0}
   sprites:
   - {fileID: 21300000, guid: 5ca3335f180bde94a8d5e41983b1d1a2, type: 3}
   prefab: {fileID: -400084230080365608, guid: b2342ac80d73a5648bbce6a1af565c05, type: 3}
